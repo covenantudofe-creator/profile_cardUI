@@ -1,68 +1,84 @@
-# Project Overview
+# Profile Card 
+##  Overview
 
 This project is a responsive and accessible Profile Card component built using HTML, CSS, and vanilla JavaScript.
 
-It is part of the Frontend Wizards Stage 1b task, where the goal is to build a semantic, testable, and interactive profile UI with proper accessibility and responsive design principles.
+It is part of the Frontend Wizards Stage 1b task, focused on building a semantic UI component with proper accessibility, dynamic content, and test-friendly attributes.
 
 
-## Features
+📁 Repository
 
-👤 User profile card layout
-🖼️ Avatar image with proper accessibility (alt text)
-📝 User name and biography section
-⏱️ Live time display using Date.now() (milliseconds)
-🔗 Social media links (open in new tab)
-❤️ Hobbies and dislikes sections
-📱 Fully responsive design (mobile, tablet, desktop)
-♿ Accessibility-friendly structure using semantic HTML
-🎯 All required data-testid attributes included for testing
-🧱 Tech Stack
-HTML5 (Semantic structure)
-CSS3 (Flexbox, responsive design)
-Vanilla JavaScript (DOM manipulation, time rendering)
+🔗 https://github.com/covenantudofe-creator/profile_cardUI
+
+## Tech Stack
+HTML5 (Semantic Markup)
+CSS3 (Flexbox + Responsive Design)
+Vanilla JavaScript (DOM manipulation)
+🎯 Features
+👤 Profile Content
+User name display
+Biography section
+Avatar image with accessibility support
+⏱️ Dynamic Time
+Displays current time in milliseconds using Date.now()
+Updates on render
+
+## Social Links
+Clickable social media links
+Opens in new tab with secure attributes
+❤️ Profile Details
+Hobbies list
+Dislikes list
+📱 Responsiveness
+Mobile-first design
+Adapts across mobile, tablet, and desktop screens
+
+## Test Identifiers (Required)
+
+All elements include required data-testid attributes:
+
+test-profile-card
+test-user-name
+test-user-bio
+test-user-time
+test-user-avatar
+test-user-social-links
+test-user-hobbies
+test-user-dislikes
+
+## Accessibility
+Semantic HTML structure (article, section, nav, figure)
+Meaningful alt text for images
+Keyboard-accessible links
+Proper contrast and readable layout
 
 ## Project Structure
-profile_cardUI
+profile_cardUI/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
 
-  index.html
-  style.css
-  script.js
-  README.md
 
-## Accessibility Notes
-All images include descriptive alt text
-Semantic HTML elements used (article, section, nav, figure)
-Keyboard navigable social links
-Proper contrast for readability
-Time value is dynamically generated and readable
-📱 Responsiveness
-
-###The card is fully responsive:
-
-Mobile: stacked layout
-Tablet: adjusted spacing and alignment
-Desktop: side-by-side layout for avatar and content
-
- Known Limitations
-No backend integration (static frontend only)
-Time is displayed in milliseconds only (as required by task)
-Avatar uses placeholder image service
-
-## What I Learned
-Building accessible UI components
-Using data-testid for test-driven frontend tasks
-DOM manipulation with JavaScript
-Responsive design using Flexbox
-Structuring production-ready frontend projects
-
-## How to Run Locally
+##How to Run Locally
 git clone https://github.com/covenantudofe-creator/profile_cardUI.git
 cd profile_cardUI
 open index.html
 
+## Limitations
+No backend integration (frontend-only project)
+Avatar uses placeholder image service
+Time display is static on load (as required)
+
+
+## Learning Outcome
+Semantic HTML structuring
+Responsive UI design
+DOM manipulation with JavaScript
+Accessibility best practices
+Working with test-driven frontend requirements
 
 ## Author
-
 Godscovenant Patrick Udofe
-
-
+Covenant Udofe
