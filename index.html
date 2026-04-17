@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Profile Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<article class="card" data-testid="test-profile-card">
+
+  <!-- AVATAR + NAME -->
+  <figure>
+  <img
+    src="https://i.pravatar.cc/150?img=47"
+    alt="Profile picture of the user"
+    width="100"
+    height="100"
+    data-testid="test-user-avatar"
+  />
+</figure>
+    <h2 data-testid="test-user-name">Godscovenant Patrick Udofe</h2>
+  </header>
+
+  <!-- BIO -->
+  <p data-testid="test-user-bio">
+    A passionate frontend developer focused on building clean, accessible and responsive web experiences.
+  </p>
+
+  <!-- TIME -->
+  <p data-testid="test-user-time" aria-live="polite" id="time"></p>
+
+  <!-- SOCIAL LINKS -->
+  <nav data-testid="test-user-social-links">
+
+    <a href="https://x.com/curvieeee?s=21"
+       target="_blank"
+       rel="noopener noreferrer"
+       data-testid="test-user-social-twitter">
+       Twitter
+    </a>
+
+    <a href="https://github.com/covenantudofe-creator/todo-card"
+       target="_blank"
+       rel="noopener noreferrer"
+       data-testid="test-user-social-github">
+       GitHub
+    </a>
+
+    <a href="https://www.linkedin.com/in/godscovenant-udofe-728b0a311"
+       target="_blank"
+       rel="noopener noreferrer"
+       data-testid="test-user-social-linkedin">
+       LinkedIn
+    </a>
+
+  </nav>
+
+  <!-- HOBBIES -->
+  <section>
+    <h3>Hobbies</h3>
+    <ul data-testid="test-user-hobbies">
+      <li>Coding</li>
+      <li>Writing</li>
+      <li>Gaming</li>
+    </ul>
+  </section>
+
+  <!-- DISLIKES -->
+  <section>
+    <h3>Dislikes</h3>
+    <ul data-testid="test-user-dislikes">
+      <li>Laziness</li>
+      <li>Noise</li>
+      <li>Slow websites</li>
+    </ul>
+  </section>
+
+</article>
+
+<script src="script.js"></script>
+</body>
+</html>
